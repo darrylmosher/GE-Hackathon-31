@@ -1,0 +1,144 @@
+{
+  "engine": {
+    "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307",
+    "displayName": "gemini-enterprise-app-dmosher",
+    "solutionType": "SOLUTION_TYPE_SEARCH",
+    "searchEngineConfig": {
+      "searchTier": "SEARCH_TIER_ENTERPRISE",
+      "searchAddOns": [
+        "SEARCH_ADD_ON_LLM"
+      ],
+      "requiredSubscriptionTier": "SUBSCRIPTION_TIER_SEARCH_AND_ASSISTANT"
+    },
+    "industryVertical": "GENERIC",
+    "knowledgeGraphConfig": {
+      "enablePrivateKnowledgeGraph": true,
+      "featureConfig": {}
+    },
+    "appType": "APP_TYPE_INTRANET",
+    "privateKnowledgeGraphMetadata": {
+      "privateKnowledgeGraphState": "ACTIVE"
+    },
+    "sessionConfig": {
+      "sessionManagementPolicy": "VERTEX_AI_MANAGED"
+    },
+    "features": {
+      "agent-sharing-without-admin-approval": "FEATURE_STATE_ON",
+      "disable-agent-sharing": "FEATURE_STATE_OFF",
+      "workflow-agents": "FEATURE_STATE_ON",
+      "enable-end-user-sharing-with-groups": "FEATURE_STATE_OFF"
+    },
+    "observabilityConfig": {
+      "observabilityEnabled": true
+    },
+    "marketplaceAgentVisibility": "SHOW_ALL_AGENTS"
+  },
+  "agents": [
+    {
+      "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/10088845815112765290",
+      "displayName": "macro-pulse-dm",
+      "description": "Simple ReAct agent",
+      "icon": {
+        "uri": "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/smart_toy/default/24px.svg"
+      },
+      "createTime": "2026-10-08T20:06:52.353611Z",
+      "updateTime": "2026-10-08T20:06:52.353611Z",
+      "adkAgentDefinition": {
+        "toolSettings": {
+          "toolDescription": "Simple ReAct agent"
+        },
+        "provisionedReasoningEngine": {
+          "reasoningEngine": "projects/your-project-number/locations/us-east1/reasoningEngines/4045346270657642496"
+        }
+      },
+      "state": "ENABLED",
+      "agentIdentityInfo": {}
+    },
+    {
+      "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/11520958581094634331",
+      "displayName": "peak-sentinel-dm",
+      "description": "Simple ReAct agent",
+      "icon": {
+        "uri": "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/smart_toy/default/24px.svg"
+      },
+      "createTime": "2026-10-08T20:45:26.465009Z",
+      "updateTime": "2026-10-08T20:45:26.465009Z",
+      "adkAgentDefinition": {
+        "toolSettings": {
+          "toolDescription": "Simple ReAct agent"
+        },
+        "provisionedReasoningEngine": {
+          "reasoningEngine": "projects/your-project-number/locations/us-east1/reasoningEngines/8639044278854615040"
+        }
+      },
+      "state": "ENABLED",
+      "agentIdentityInfo": {}
+    },
+    {
+      "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/2022180924972987493",
+      "displayName": "google-trends-bq-agent-dm",
+      "description": "Simple ReAct agent",
+      "icon": {
+        "uri": "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/smart_toy/default/24px.svg"
+      },
+      "createTime": "2026-10-08T18:08:44.219302Z",
+      "updateTime": "2026-10-08T18:08:44.219302Z",
+      "adkAgentDefinition": {
+        "toolSettings": {
+          "toolDescription": "Simple ReAct agent"
+        },
+        "provisionedReasoningEngine": {
+          "reasoningEngine": "projects/your-project-number/locations/us-east1/reasoningEngines/2124561029584125952"
+        }
+      },
+      "state": "ENABLED",
+      "agentIdentityInfo": {}
+    },
+    {
+      "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/7840190081063823043",
+      "displayName": "basic-search-agent-dm",
+      "description": "Simple ReAct agent",
+      "icon": {
+        "uri": "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/smart_toy/default/24px.svg"
+      },
+      "createTime": "2026-10-08T17:32:44.539212Z",
+      "updateTime": "2026-10-08T17:32:44.539212Z",
+      "adkAgentDefinition": {
+        "toolSettings": {
+          "toolDescription": "Simple ReAct agent"
+        },
+        "provisionedReasoningEngine": {
+          "reasoningEngine": "projects/your-project-number/locations/us-east1/reasoningEngines/3658599652657201152"
+        }
+      },
+      "state": "ENABLED",
+      "agentIdentityInfo": {}
+    },
+    {
+      "name": "projects/your-project-number/locations/us/collections/default_collection/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/deep_research",
+      "displayName": "Deep Research",
+      "description": "This agent is a specialized agent that gathers, analyzes, and understands information from internal and external sources. It generates a plan, an in-depth report, and a summary.",
+      "createTime": "2026-10-08T17:29:16.059412Z",
+      "updateTime": "2026-10-08T17:29:16.059412Z",
+      "managedAgentDefinition": {
+        "toolSettings": {
+          "toolDescription": "This agent is a specialized agent that gathers, analyzes, and understands information from internal and external sources. It generates a plan, an in-depth report, and a summary."
+        },
+        "researchAssistantAgentConfig": {}
+      },
+      "state": "ENABLED",
+      "longRunningOperationsEnabled": true,
+      "sharingConfig": {
+        "scope": "ALL_USERS"
+      },
+      "agentIdentityInfo": {
+        "spiffeIdType": "DEFAULT",
+        "spiffeId": "//agents.global.org-616463121992.system.id.goog/resources/discoveryengine/projects/your-project-number/locations/us/engines/gemini-enterprise-app-dmos_1791480549307/assistants/default_assistant/agents/default/deep_research",
+        "agentIdPart": "deep_research"
+      },
+      "observabilityConfig": {
+        "observabilityEnabled": true
+      }
+    }
+  ]
+}
